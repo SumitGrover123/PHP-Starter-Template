@@ -1,5 +1,5 @@
-<?php /* Starting point. This file requires 1_main.php */ ?>
+<?php /* index file is always the starting point. */ ?>
 
 <?php
-require('1_main.php'); //home file is required
+require('1_main.php'); // "1_main.php" file is required.
 ?>
