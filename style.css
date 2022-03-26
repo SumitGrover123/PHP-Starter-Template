@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: rgba(220, 220, 220, 0.7);
+  }
+  
+  header, nav, section, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.7);
+    /* border-bottom: 1px solid black; */
+  }
+  
+  /* header, section, footer {
+    margin: 10px;
+  } */
+  
+  footer {
+    flex-direction: column;
+  }
+  
+  nav {
+    background-color: inherit;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  section {
+    display: block;
+  }
+  
+  .class_div_nav_item_group_1 {
+    flex: 20%;
+    margin-left: 10px;
+  }
+  
+  .class_div_nav_item_group_2 {
+    flex: 20%;
+  }
+  
+  .class_div_nav_item_group_3 {
+    flex: 20%;
+  }
+  
+  .class_div_nav_item_group_4 {
+    flex: 20%;
+  }
+  
+  .class_div_nav_item_group_5 {
+    flex: 20%;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  #id_input_search, #id_button_search, #id_button_top, #id_button_bottom {
+    background-color: inherit;
+  }
+  
+  #id_button_search, #id_button_top, #id_button_bottom, #id_input_submit, #id_input_reset {
+    cursor: pointer;
+  }
+  
+  a:hover, #id_input_search:hover, #id_button_search:hover, #id_button_top:hover, 
+  #id_button_bottom:hover, #id_input_submit:hover, #id_input_reset:hover, #id_form_input_fname:hover, 
+  #id_form_input_lname:hover, #id_form_input_age:hover, #id_form_input_email:hover, #id_input_feedback:hover {
+    background-color: rgba(220, 220, 220, 0.7);
+    color: #333;
+  }
+  
+  input[type="radio"], label {
+    cursor: pointer;
+  }
+  
+  input:hover::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #333;
+    opacity: 1;
+    /* Firefox */
+  }
+  
+  hr {
+    border: 1px solid rgba(220, 220, 220, 0.7);
+  }
+  
+  table, th, td {
+    border: 2px solid rgba(220, 220, 220, 0.7);
+    border-collapse: collapse;
+  }
+  
+  table {
+    background: #333;
+    color: rgba(220, 220, 220, 0.7);
+    border: 1px solid rgba(220, 220, 220, 0.7);
+  }
+  
+  legend {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  fieldset {
+    border: none;
+    font-family: arial;
+    color: grey;
+    font-size: 0.95em;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .class_div_footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .class_span_copyright_socialmedia, .class_span_feedbackform {
+    flex: 50%;
+    margin: 0 50px;
+    padding: 10px;
+    min-width: max-content;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Style the button that is used to open and close the collapsible content */
+  .collapsiblebutton {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsiblebutton:hover {
+    background-color: #555;
+  }
+  
+  .collapsiblebutton:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .collapsiblediv {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the horizontal bars */
+  /* .hr01, .hr02 {
+      border-width: 0;
+  background-color: black;
+  }
+  
+  .hr01 {
+  height: 4px;
+  }
+  
+  .hr02 {
+  height: 2px;
+  } */
+  
+  a, input, button {
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  p {
+    margin: 5px;
+  }
+  
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+  
+  /* Style the tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: monospace;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #ddd;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #tdstrike1, #tdstrike2 {
+    text-decoration: line-through;
+  }
+  
+  #Aa, #Ab, #Ac, #Ad, #Ae, #Af, #Ba, #Bb, #Bc, #Bd, #Be, #Ca, #Cb, #Cc, #Cd, #Ce, #Cf, #Da, #Db, #Dc, #Dd, #De, #Ea, #Eb, #Ec, #Ed, #Ee, #Fa, #Fb, #Fc, #Fd, #Fe, #Ga, #Gb, #Gc, #Gd, #Ge, #Ha, #Hb, #Hc, #Hd, #He, #Ia, #Ib, #Ic, #Id, #Ie, #Ja, #Jb, #Jc, #Jd, #Je, #Ka, #Kb, #Kc, #Kd, #Ke, #La, #Lb, #Lc, #Ld, #Le, #Ma, #Mb, #Mc, #Md, #Me, #Na, #Nb, #Nc, #Nd, #Ne, #Oa, #Ob, #Oc, #Od, #Oe, #Pa, #Pb, #Pc, #Pd, #Pe, #Qa, #Qb, #Qc, #Qd, #Qe, #Ra, #Rb, #Rc, #Rd, #Re, #Sa, #Sb, #Sc, #Sd, #Se, #Sf, #Sg, #Sh, #Si, #Sj, #Ta, #Tb, #Tc, #Td, #Te, #Ua, #Ub, #Uc, #Ud, #Ue, #Va, #Vb, #Vc, #Vd, #Ve, #Wa, #Wb, #Wc, #Wd, #We, #Xa, #Xb, #Xc, #Xd, #Xe, #Ya, #Yb, #Yc, #Yd, #Ye, #Za, #Zb, #Zc, #Zd, #Ze {
+    text-align: justify;
+    /* For Edge */
+    text-align-last: center;
+  }
